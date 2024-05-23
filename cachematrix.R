@@ -2,9 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
-## Call "MASS" library for running ginv function
+## Call "MASS" library for running ginv() function
 makeCacheMatrix <- function(x = matrix()) {
-nv <- NULL
+  inv <- NULL
   set <- function(y) {
     x <<- y
     inv <<- NULL
